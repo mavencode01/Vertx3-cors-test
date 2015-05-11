@@ -1,0 +1,25 @@
+<div class="container-fluid">
+	<div id="page-login" class="row">
+		<div class="col-xs-12 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">			
+			<div class="box">
+				<div class="box-content">
+					<div class="text-center">
+						<h3 class="page-header">Login</h3>
+					</div>
+					<div class="form-group">
+						<label class="control-label">Username</label>
+						<input type="text" ng-model="username" class="form-control" name="username" />
+					</div>
+					<div class="form-group">
+						<label class="control-label">Password</label>
+						<input type="password" ng-model="password" class="form-control" name="password" />
+					</div>
+					<div class="text-center">
+						<a ng-click="reset()" class="btn btn-primary">Reset</a>
+						<a ng-click="signIn()" class="btn btn-danger">Sign in</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
